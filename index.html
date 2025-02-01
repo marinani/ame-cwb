@@ -9,7 +9,7 @@
 
 <!-- Favicons
     ================================================== -->
-<link rel="shortcut icon" href="img/fav.png" type="image/png">
+<link rel="shortcut icon" href="img/ame_atacadistA.svg" type="image/png">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
@@ -231,17 +231,21 @@
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title center">
-      <h2>CONTATO:</h2>
+      <h2>Entre em contato</h2>
       <hr>
     </div>
-    <div class="contact-form">
-    <div class="contact-container">
-      
+    <div class="col-md-8 col-md-offset-2">
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Nome" required="required">
+              <input type="text" id="name" class="form-control" placeholder="Nome" required="required" data-error="Por favor, insira seu nome.">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required" data-error="Por favor, insira seu email.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -249,7 +253,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <input type="text" id="phone" class="form-control" placeholder="Telefone" required="required" data-error="Por favor, insira seu telefone.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -257,45 +261,26 @@
         <div class="row">
           <div class="col-md-12">
             <div class="form-group">
-              <input type="email" id="phone" class="form-control" placeholder="Telefone" required="required">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensagem" required data-error="Por favor, insira sua mensagem."></textarea>
               <p class="help-block text-danger"></p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div id="success"></div>
-      <button type="submit" class="btn btn-send btn-lg">Enviar Mensagem</button>
-    </form>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-send btn-lg">Enviar Mensagem</button>
+      </form>
     </div>
-    
-       
-   
-      <div class="contact-map">
-        <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.853512345678!2d-49.2767891234567!3d-25.428123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce123456789ab%3A0x123456789abcdef!2sRua%20Albino%20Silva%2C%2016%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080520-210%2C%20Brasil!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
-      width="600"
-      height="450"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
-      </div>
-    </div>
+  </div>
+</div>
 
-      
-    </div>
+
+
   </div>
 </div>
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
-      <p>Copyright &copy; 2025 AME COMERCIO ATACADISTA. Feito por <a href="https://codelatte.org/" rel="nofollow">MARINANI DEVELOPER LTDA</a>. -  Todos os direitos reservados</p>
+      <p>Copyright &copy; 2025 AME COMERCIO ATACADISTA. Desenvolvido por <a href="https://marinani.github.io/" rel="nofollow">MARINANI DEVELOPER LTDA</a>. -  Todos os direitos reservados</p>
     </div>
   </div>
 </div>
