@@ -414,23 +414,6 @@ label {
 	float: left;
 }
 
-#contact .contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-#contact .contact-form {
-    flex: 1;
-    max-width: 50%;
-}
-
-#contact .contact-map {
-    flex: 1;
-    max-width: 50%;
-}
-
 #contact .form-control {
 	display: block;
 	width: 100%;
@@ -517,7 +500,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Footer Section*/
 #footer {
 	background: #F25C05;
-	color: rgba(255,255,255,0.4);
+	color: white;
 	padding: 30px 0 25px 0;
 }
 #footer p {
@@ -527,7 +510,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgba(255,255,255,0.7);
 }
 #footer a:hover {
-	color: #54d0dd;
+	color: whitesmoke;
 }
 
 @media (max-width: 1024px) {
