@@ -1,0 +1,26 @@
+{
+  "name": "awe-site",
+  "version": "1.0.0",
+  "description": "Web Site desenvolvido para empresa - AME COMERCIO ATACADISTA DE PRODUTOS SIDERURGICOS E METALURGICOS LTDA - 39.400.435/0001-69 <br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinani/ame-cwb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marinani/ame-cwb/issues"
+  },
+  "homepage": "https://github.com/marinani/ame-cwb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "path": "^0.12.7"
+  }
+}

@@ -255,6 +255,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Representacoes Section */
+#representacoes {
+	padding: 120px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,71777d+0,414a52+100 */
+	background: #F25C05; /* Old browsers */
+	background: -moz-linear-gradient(top, #F25C05 0%,#F25C05 0%, #F25C05 0%, #F25C05 0%, #F25C05 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #F25C05 0%, #F25C05 0%, #F25C05 0%, #F25C05 0%, #F25C05 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #F25C05 0%, #F25C05 0%, #F25C05 0%, #F25C05 0%, #F25C05 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); /* IE6-9 */
+}
+#representacoes h2 {
+	color: #030A8C;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
@@ -268,6 +284,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #portfolio h2 {
 	color: #030A8C;
 }
+
+
+
+
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
